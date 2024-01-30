@@ -1,5 +1,5 @@
 {
-  "name": "gzhuih-cli",
+  "name": "gzhu-ihs-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "bin":{
-    "gzhuih": "./bin/index.js"
+    "ihs": "./bin/index.js"
   }
 }
