@@ -1,12 +1,15 @@
 {
-  "name": "gzhu-ihs-cli",
+  "name": "app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ihs": "ihs"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "gzhu-ihs-cli": "workspace:*"
+  }
 }

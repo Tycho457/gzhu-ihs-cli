@@ -1,0 +1,17 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  examples/app:
+    dependencies:
+      gzhu-ihs-cli:
+        specifier: workspace:*
+        version: link:../../packages/gzhu-ihs-cli
+
+  packages/gzhu-ihs-cli: {}
